@@ -5,7 +5,6 @@ PROD_HOST="whoami-prod"
 
 docker run -d \
     -l "traefik.http.routers.$DEV.rule=Host(\`$DEV_HOST.docker.localhost\`)" \
-    --net traefik_default \
     --net-alias $DEV \
     --name $DEV \
     --hostname $DEV \
@@ -14,7 +13,6 @@ docker run -d \
 
 docker run -d \
     -l "traefik.http.routers.$PROD.rule=Host(\`$PROD_HOST.docker.localhost\`)" \
-    --net traefik_default \
     --net-alias $PROD \
     --name $PROD \
     --hostname $PROD \
