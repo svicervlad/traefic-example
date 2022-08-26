@@ -1,8 +1,8 @@
-# TREAFIC SIMPLE EXAMPLE
+# TREAFIK SIMPLE EXAMPLE
 
 ## Introduction
 
-This is a simple example of a Treafic application.
+This is a simple example of a Treafik application.
 
 ## Quickstart
 
